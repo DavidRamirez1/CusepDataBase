@@ -1,0 +1,22 @@
+READ ME - USO de Base de Datos de CUSEP!
+
+
+David A. Ramirez
+801105884
+Prof. Carlos Corrada
+CCOM4027
+
+Enlace a la aplicacion: http://ada.uprrp.edu/~david.ramirez2/CUSEP/
+
+Uso: Haga click a las opciones pertinentes a su busqueda de informacion (Estudiante, Paciente, Profesor o Supervisiones y Casos) visto en el menu.
+	Ver: Estudiantes, Pacientes y Profesores tienen la opcion de ser buscadas por su numero de estudiante, de expediente o por su nombre y apellido, respectivamente.
+		 Ademas, se puede buscar en la lista en la primera pagina de 'Ver' y darle click para ver la informacion de esa persona. Para Supervisiones y Casos, se vera
+		 una lista de todas las Supervisiones y de todos los casos, y se le puede darle click al Numero de estudiante, expediente o ID de profesor en cada fila para
+		 ver la informacion de ese individuo.
+
+	Insert: Para a~adir un nuevo Estudiante, Profesor o Paciente, tiene que poner la informacion completa en las barras dadas y
+			tienen que tener su respectivo ID especificado (Num Estudiante, ID, Num Expediente). Fechas tienen el formato YYYY-MM-DD y si pide solo a~o el formato es YYYY, y si es mes solo se pone el nombre del mes. Si no, no se permitira la entrada. Para Supervisiones y Casos, se puede hacer las entradas de las dos en la misma pagina. Para el nuevo caso, se tiene que poner la informacion completa de la Supervision que va a estar viendo el caso, ya que se utiliza su informacion completa para identificar una supervision.
+
+	Actualizar: Similar a las anteriores. Para Estudiantes, Profesores y Pacientes, se pone primero su ID, y al darle click a 			  la entrada te mandara a una pagina con la informacion actual de ese individuo, y luego se puede cambiar la informacion y actualizar. Para Supervisiones y Casos, es necesario poner la informacion completa primero ya que es necesario para identificarse unicamente. Luego en 'Informacion Actualizada' se pone la informacion nueva.
+
+	Delete: Se pone el ID que identifica la identidad para borrarla. OJO: NO SE PODRA BORRAR ESTUDIANTES NI PACIENTES QUE ESTEN EN UNA SUPERVISION EXISTENTE, NI UNA SUPERVISION O PACIENTE QUE PARTICIPEN DE UN CASO. ESTAS MEDIDAS ESTAN PUESTAS POR RAZONES LEGALES Y MEDICAS.
